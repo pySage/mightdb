@@ -1,0 +1,7 @@
+[workspace]
+members = [
+  "crates/arena",
+  "crates/playground",
+]
+resolver = "2"
+

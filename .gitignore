@@ -1,0 +1,116 @@
+############################
+# OS / Editor / Misc
+############################
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+.idea/
+.vscode/
+*.iml
+
+# Vim / Emacs
+*~
+*.swp
+*.swo
+\#*\#
+.\#*
+
+# Logs
+*.log
+
+############################
+# Rust
+############################
+target/
+**/target/
+Cargo.lock
+# If this is a binary/application repo, keep Cargo.lock.
+# If this is primarily a library workspace, ignoring Cargo.lock is common.
+
+# Rustfmt / clippy (optional)
+.rustfmt.toml.bak
+
+############################
+# Go
+############################
+# Binaries & build outputs
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Go workspace / modules
+go.work
+go.work.sum
+
+# If you vendor dependencies, remove this line
+vendor/
+
+############################
+# Python
+############################
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Packaging / build
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Testing / coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# Type checkers
+.mypy_cache/
+.pyright/
+.pytype/
+
+# Jupyter
+.ipynb_checkpoints/
+
+############################
+# Local env / secrets
+############################
+.env
+.env.*
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+secrets/
+*.secrets.*
+
+############################
+# Benchmarks / profiling
+############################
+perf.data
+perf.data.old
+*.prof
+*.pprof
+*.trace
+
+############################
+# Temporary / scratch
+############################
+tmp/
+temp/
+scratch/
